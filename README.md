@@ -1,4 +1,4 @@
-📌 Title
+<img width="1524" height="855" alt="image" src="https://github.com/user-attachments/assets/d15980fe-45ac-4d15-952a-15836f76758c" />📌 Title
 User Retention Analysis & Product Optimization for E-commerce Platform
 
 🧠 Problem Statement
@@ -61,6 +61,11 @@ Success Metrics:
 - Offer first-time user incentives
 
 📊 Dashboard
+<img width="1524" height="855" alt="image" src="https://github.com/user-attachments/assets/ec0c0b88-292d-4143-8ca7-0268994f73d6" />
+<img width="1518" height="856" alt="image" src="https://github.com/user-attachments/assets/d86350a2-fee2-4cfe-8355-45060cfd0924" />
+<img width="1520" height="863" alt="image" src="https://github.com/user-attachments/assets/af541d08-c58b-4c9f-847a-3a68dbff025d" />
+
+
 
 💼 Business Impact
 Improving early retention by 15–20% can significantly increase customer lifetime value and revenue.
