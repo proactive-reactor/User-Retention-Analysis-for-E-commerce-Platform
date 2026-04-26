@@ -1,4 +1,4 @@
-<img width="1524" height="855" alt="image" src="https://github.com/user-attachments/assets/d15980fe-45ac-4d15-952a-15836f76758c" />📌 Title
+Title
 User Retention Analysis & Product Optimization for E-commerce Platform
 
 🧠 Problem Statement
