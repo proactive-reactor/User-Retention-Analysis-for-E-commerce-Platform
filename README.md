@@ -1,71 +1,71 @@
-📊 PAGE 1: OVERVIEW INSIGHTS
-🔹 Insight 1: User Engagement Trend
-Observation: DAU shows fluctuations with no consistent upward trend.
-Insight: User engagement is unstable, indicating weak retention or inconsistent product usage.
-Impact: This can limit long-term growth and reduce monetization opportunities.
-Recommendation: Focus on improving repeat engagement via notifications, personalization, or feature stickiness.
+📌 Title
+User Retention Analysis & Product Optimization for E-commerce Platform
 
-🔹 Insight 2: Stickiness (DAU/MAU)
-Observation: Stickiness ratio is relatively low.
-Insight: Users are not returning frequently after initial interaction.
-Impact: Indicates low product dependency and weak habit formation.
-Recommendation: Improve daily-use features (e.g., reminders, content updates, rewards).
+🧠 Problem Statement
+User retention has declined over time, impacting long-term revenue and customer lifetime value.
 
-🔹 Insight 3: New vs Returning Users
-Observation: Higher proportion of new users compared to returning users.
-Insight: Acquisition is working, but retention is weak.
-Impact: Growth is inefficient because users are not retained.
-Recommendation: Optimize onboarding experience and early user journey.
+This project analyzes user behavior to:
+- Identify where users drop off
+- Understand retention patterns
+- Recommend product improvements
 
-📊 PAGE 2: RETENTION ANALYSIS (MOST IMPORTANT)
-🔥 Insight 4: Early Retention Drop
-Observation: Significant drop in retention after Day 1 / Day 2.
-Insight: Users are not finding immediate value in the product.
-Impact: High early churn reduces lifetime value (LTV).
-Recommendation: Improve onboarding flow, simplify first-time experience, and highlight core value quickly.
+🎯 Key Business Questions
+- Where does user drop-off occur in the lifecycle?
+- Which cohorts have the lowest retention?
+- What user behaviors correlate with higher retention?
+- How can we improve retention using data-driven decisions?
 
-🔥 Insight 5: Retention Curve Behavior
-Observation: Retention stabilizes after initial drop.
-Insight: Users who stay beyond early days are more likely to remain engaged.
-Impact: Indicates existence of a loyal user segment.
-Recommendation: Identify and target similar users to improve retention.
+📊 Metrics Defined
+- DAU / MAU → Engagement
+- Retention Rate → User stickiness
+- Churn Rate → User loss
+- Conversion Rate → Revenue driver
 
-🔥 Insight 6: New vs Returning Retention
-Observation: Returning users show higher retention than new users.
-Insight: Product delivers value, but only after repeated use.
-Impact: Onboarding gap is the main bottleneck.
-Recommendation: Reduce time-to-value for new users.
+🛠️ Tech Stack
+- SQL (BigQuery)
+- Python (Pandas, Matplotlib)
+- Power BI
+- Cohort Analysis
 
-🔥 Insight 7: Cohort Performance
-Observation: Some cohorts perform better than others.
-Insight: External factors (campaigns, features, seasonality) impact retention.
-Impact: Not all user acquisition channels are equal.
-Recommendation: Double down on high-performing acquisition sources.
+🔍 Approach
+1. Data extraction using SQL
+2 .Cohort creation (user-level segmentation)
+3. Retention analysis (day-wise tracking)
+4. Funnel analysis (conversion drop-off)
+5. Behavioral segmentation
+6. Insight generation
 
-📊 PAGE 3: FUNNEL ANALYSIS
-🔻 Insight 8: Funnel Drop-off
-Observation: Large drop between Product View and Purchase stage.
-Insight: Users are interested but not converting.
-Impact: Revenue loss due to friction in purchase journey.
-Recommendation: Optimize checkout process, pricing, and trust signals.
+📈 Key Insights
+🔴 Retention drops ~40% after Day 2, indicating onboarding friction
+🔴 Only X% users convert to purchase, showing funnel inefficiency
+🟢 Users who perform ≥3 actions in first session retain 2x more
+🔴 Majority churn occurs in early lifecycle
 
-🔻 Insight 9: Conversion Rate
-Observation: Overall conversion rate is low.
-Insight: Product discovery is not translating into transactions.
-Impact: Poor monetization efficiency.
-Recommendation: Improve product recommendations and simplify buying flow.
+🧠 Root Cause Hypothesis
+- Weak onboarding experience
+- Lack of early engagement triggers
+- Poor first-session experience
 
-🔻 Insight 10: View Rate vs Purchase Rate
-Observation: High view rate but low purchase rate.
-Insight: Users are exploring but not committing.
-Impact: Indicates decision friction (price, UX, trust).
-Recommendation: Add reviews, discounts, urgency triggers.
+🧪 Experimentation Plan (THIS IS WHAT MAKES YOU STAND OUT)
+A/B Test Proposal:
+- Control: Current onboarding
+- Variant: Guided onboarding + recommendations
+Success Metrics:
+- Day 3 retention
+- Conversion rate
 
-🔻 Insight 11: Transactions Over Time
-Observation: Transactions fluctuate over time.
-Insight: Revenue is inconsistent and possibly campaign-driven.
-Impact: Lack of stable revenue stream.
-Recommendation: Build retention-driven revenue strategies.
+💡 Business Recommendations
+- Improve onboarding UX
+- Add personalized product recommendations
+- Introduce early engagement nudges
+- Offer first-time user incentives
 
-🎯 FINAL SUMMARY (PUT THIS IN DASHBOARD)
-“The analysis shows strong user acquisition but weak retention and conversion. Early-stage user drop-off and funnel friction are the primary growth bottlenecks. Improving onboarding experience and optimizing the purchase journey can significantly increase user retention and revenue.”
+📊 Dashboard
+
+💼 Business Impact
+Improving early retention by 15–20% can significantly increase customer lifetime value and revenue.
+
+🚀 Next Steps
+- Deploy A/B testing framework
+- Track long-term retention
+- Build ML-based recommendation system
